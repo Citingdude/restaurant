@@ -1,0 +1,24 @@
+/**
+ * Default page styles
+ */
+ html {
+  height: 100%;
+  color: black;
+  scroll-behavior: smooth;
+}
+body {
+  height: auto;
+  position: relative;
+}
+
+address {
+  font-style: normal;
+}
+
+*::selection {
+  color: black;
+  background: grey;
+}
+*:focus {
+  outline: none;
+}

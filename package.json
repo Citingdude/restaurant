@@ -1,16 +1,24 @@
 {
   "name": "restaurant",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp & http-server"
   },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "sass": "1.77.6",
-    "typescript": "5.2.2",
-    "vite": "5.3.1"
+    "@types/gulp": "4.0.17",
+    "@types/gulp-concat": "^0.0.37",
+    "@types/gulp-sass": "5.0.4",
+    "gulp": "5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "5.1.0",
+    "sass": "1.77.6"
+  },
+  "dependencies": {
+    "ts-node": "10.9.2"
   }
 }
