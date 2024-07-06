@@ -5,20 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gulp & http-server"
+    "dev": "gulp & http-server -p 3000"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/gulp": "4.0.17",
-    "@types/gulp-concat": "^0.0.37",
+    "@types/gulp-concat": "0.0.37",
     "@types/gulp-sass": "5.0.4",
     "gulp": "5.0.0",
-    "gulp-concat": "^2.6.1",
+    "gulp-concat": "2.6.1",
     "gulp-sass": "5.1.0",
     "sass": "1.77.6"
   },
   "dependencies": {
+    "http-server": "14.1.1",
     "ts-node": "10.9.2"
   }
 }
